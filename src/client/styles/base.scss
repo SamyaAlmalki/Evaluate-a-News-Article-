@@ -1,0 +1,35 @@
+$keycolor: rgb(233, 152, 3);
+
+body {
+display: flex;
+justify-content: center;
+flex-direction: column;
+min-height: 99vh;
+}
+
+main{
+flex:1.5;
+justify-content:center;
+text-align: 1.5 rem;
+font: 290 1rem sans-serif; 
+background: rgb(7, 28, 66);
+}
+
+p {
+margin: 1rem;
+}
+
+section {
+max-width:790px;
+margin: 1rem auto;
+}
+
+a:link,
+a:visited {
+color:#000;
+text-decoration:none;
+}
+
+a:hover{
+color:$keycolor;
+}

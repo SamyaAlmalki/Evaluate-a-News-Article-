@@ -1,0 +1,12 @@
+$keycolor: rgb(204, 135, 8);
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 9.5px 39px;
+}
+
+h1{
+    font: 799 2.5rem "Reboto Slab" , serif;
+    text-decoration: underline overline $keycolor;
+}

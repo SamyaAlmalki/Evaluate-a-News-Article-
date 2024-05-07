@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+     padding: 0;
+     background-color:aliceblue;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 19px;
+}
+
+textarea {
+    width: 100%;
+    margin: 19px auto;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+button{
+    display :block;
+    margin: 0 auto;
+    padding: 9px 19px;
+    background-color: blueviolet;
+    color:azure;
+    border: none;
+    cursor: pointer;
+}
+
+#results {
+    margin: 19px auto;
+    padding: 10px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    width: 81%;
+    max-width: 700px;
+    overflow-wrap: break-word;
+}
